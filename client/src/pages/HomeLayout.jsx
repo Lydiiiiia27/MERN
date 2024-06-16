@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 const HomeLayout = () => {
   return (
     <div>
-      <nav>navbar</nav>
+      <nav></nav>
 
       {/* use Outlet to display child page */}
       <Outlet />
